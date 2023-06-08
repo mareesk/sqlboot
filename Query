@@ -1,0 +1,3 @@
+create database todolist;
+use todolist;
+create table todo(task_id integer Not null,task_name varchar(30)  Not null,description Text Not null,is_completed boolean,primary key(task_id));
